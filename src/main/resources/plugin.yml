@@ -1,0 +1,12 @@
+name: CustomChestCommand
+main: com.yourname.customchestcommand.Main
+version: 1.0
+api-version: 1.21
+commands:
+  chest:
+    description: 자동으로 서버를 최적화함
+    usage: /chest <x> <y> <z> <item> <amount>
+    permission: chestcommand.use
+permissions:
+  chestcommand.use:
+    default: true
